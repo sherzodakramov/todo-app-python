@@ -23,9 +23,9 @@ window = sg.Window('My To-Do App',
 while True:
     event, values = window.read(timeout=200)
     window['clock'].update(value=time.strftime("%b %d, %Y %H:%M:%S"))
-    """ window.read() in this case provide the tuple, 
+    """window.read() in this case provide the tuple, 
     and we stored elements of this tuple into two 
-    variables which named as 'event' and 'values' """
+    variables which named as 'event' and 'values'"""
     # print(1, event)
     # print(2, values)
     # print(3, values['todos'])
